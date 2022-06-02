@@ -1,8 +1,11 @@
 /target/
 
-/.classpath
-/.springBeans
-/.project
-/.settings/
-/.gradle/
-/build/
+**/.classpath
+**/.springBeans
+**/.project
+**/.settings/
+**/.gradle
+*.jar
+*.war
+/bin/
+**/.tern-project
