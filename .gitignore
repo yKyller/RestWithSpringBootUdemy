@@ -5,7 +5,9 @@
 **/.project
 **/.settings/
 **/.gradle
+**/.idea/
 *.jar
 *.war
+*.gitignore
 /bin/
 **/.tern-project
