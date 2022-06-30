@@ -25,7 +25,7 @@ spring:
             max-request-size: 215MB
 
 flyway:
-    url: jdbc:mysql://restwithspringbootudemy.cqu5dvvpfyxw.sa-east-1.rds.amazonaws.com:3306/
+    url: jdbc:mysql://url-amazon:3306/
     schemas: rest_with_spring_boot_udemy
     user: docker
     password: docker123
