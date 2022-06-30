@@ -1,0 +1,11 @@
+Criar:
+	entrar na pasta do projeto > git bash:
+		mvn archetype:create-from-project
+
+Subir para o .m2:
+	entrar na pasta target/generated-sources/archetype > git bash:
+		mvn clean install
+
+Criar uma pasta nova para o projeto q vai ser criado > acessar ela > git bash:
+	mvn archetype:generate -DarchetypeGroupId=br.com.erudio -DarchetypeArtifactId=rest-with-springboot-udemy-archetype
+	responder as perguntas.

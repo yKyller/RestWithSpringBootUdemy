@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Administrador
+Build-Jdk: 17.0.2
+Implementation-Title: rest-from-archetype
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: br.com.kyller
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/rest-from-archetype
+Created-By: Maven Integration for Eclipse
+
