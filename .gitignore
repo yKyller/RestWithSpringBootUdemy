@@ -11,3 +11,4 @@
 *.gitignore
 /bin/
 **/.tern-project
+**/application_funcional.yml
