@@ -1,0 +1,14 @@
+Criar/Iniciar:
+docker run --name containerPostgres -e POSTGRES_PASSWORD=admin123 -p 5432:5432 -d postgres
+
+Parar:
+docker stop <container id>
+
+Remover container:
+docker container rm containerPostgres
+
+Remover imagem:
+docker rmi postgres
+
+infos:
+docker ps -a

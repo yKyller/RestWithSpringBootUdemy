@@ -1,0 +1,37 @@
+spring:
+    datasource:
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/rest_with_spring_boot_udemy
+        username: postgres
+        password: admin123
+
+    jackson:
+        default-property-inclusion: NON_NULL
+
+    jpa:
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQL92Dialect
+                jdbc:
+                  lob:
+                    non_contextual_creation: true
+
+        hibernate:
+            ddl-auto: none
+        show-sql: false
+
+    servlet:
+        multipart:
+            enabled: true
+            file-size-threshold: 2KB
+            max-file-size: 200MB
+            max-request-size: 215MB
+
+flyway:
+    url: jdbc:postgresql://localhost:5432/
+    schemas: rest_with_spring_boot_udemy
+    user: postgres
+    password: admin123
+
+file:
+    upload-dir: /Programacao/Spring/UdemySpringBoot/UploadDir
