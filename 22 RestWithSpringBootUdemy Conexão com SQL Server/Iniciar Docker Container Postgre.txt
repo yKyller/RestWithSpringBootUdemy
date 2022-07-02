@@ -1,0 +1,14 @@
+Criar/Iniciar:
+docker run --name containerSQLServer -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=admin123!" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest
+
+Parar:
+docker stop containerSQLServer
+
+Remover container:
+docker container rm containerSQLServer
+
+Remover imagem:
+docker rmi mcr.microsoft.com/mssql/server:2017-latest
+
+infos:
+docker ps -a
